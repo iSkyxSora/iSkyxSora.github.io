@@ -1,9 +1,14 @@
 body {
 	
 	background-image: url("http://www.interiorplace.com/product_images/z/214/LW26410L__46857.jpg");
-
 	background-repeat: repeat;
+
+}
+img{
+
+	padding:2px;
+	border:5px groove pink;
 }
 p{
-	font-size: 50px;
+	font-size: 20px;
 }
