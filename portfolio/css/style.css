@@ -4,6 +4,16 @@ body {
 	background-repeat: repeat;
 
 }
+
+h1{
+	font-family: Brush Script MT;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size:50px;
+}
+
+
 div img {
 
 	padding:5px;
@@ -11,27 +21,18 @@ div img {
 	float:left;
 }
 
+span{
+	text-decoration: underline;
+	font-weight: bold;
+	font-style:italic;
+	font-family:Brush Script MT;
+	font-size: 35px;
+}
 
-
-span {
-	font-size: 20px;
+.aboutmee {
+	font-size: 15px;
+	float:left;
+	background-color: #F0F8FF;
+	padding:5px;
+	border:5px groove #FFDDF4;
 	
-	background-color: #FFFFFF;
-	
-}
-
-{
-	float:left;
-}
-
-{
-	float:left;
-}
-
-{
-	float:left;
-}
-
-{
-	float:left;
-}
