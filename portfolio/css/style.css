@@ -21,7 +21,7 @@ h1{
 
 div img {
 
-	padding:5px;
+	
 	border:5px groove #FFDDF4;
 	float:left;
 }
@@ -36,8 +36,10 @@ span{
 
 .aboutmee {
 	font-size: 15px;
-	float:left;
 	background-color: #F0F8FF;
-	padding:50px;
+	padding:20px;
 	border:5px groove #FFDDF4;
-	
+
+p{
+	float:left;
+}
