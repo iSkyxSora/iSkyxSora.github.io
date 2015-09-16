@@ -2,7 +2,12 @@ body {
 	
 	background-image: url("http://www.interiorplace.com/product_images/z/214/LW26410L__46857.jpg");
 	background-repeat: repeat;
+}
 
+.heading{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 h1{
@@ -33,6 +38,6 @@ span{
 	font-size: 15px;
 	float:left;
 	background-color: #F0F8FF;
-	padding:5px;
+	padding:50px;
 	border:5px groove #FFDDF4;
-	
+	width:-20px;
