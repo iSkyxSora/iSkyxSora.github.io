@@ -4,11 +4,34 @@ body {
 	background-repeat: repeat;
 
 }
-img{
+div img {
 
-	padding:2px;
-	border:5px groove pink;
+	padding:5px;
+	border:5px groove #FFDDF4;
+	float:left;
 }
-p{
+
+
+
+span {
 	font-size: 20px;
+	
+	background-color: #FFFFFF;
+	
+}
+
+{
+	float:left;
+}
+
+{
+	float:left;
+}
+
+{
+	float:left;
+}
+
+{
+	float:left;
 }
