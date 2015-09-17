@@ -17,7 +17,7 @@ h1{
 	font-weight: bold;
 	text-decoration: underline;
 	font-size:60px;
-	margin-left: 150px;
+	margin-left: 190px;
 	color:pink;
 }
 
@@ -36,19 +36,24 @@ span{
 	font-weight: bold;
 	font-style:italic;
 	font-family:Brush Script MT;
-	font-size: 125px;
+	font-size: 50px;
 	color:pink;
+	
+}
+
+.paragraphs{
+	background-color: #F0F8FF;
+	border:30px groove #FFDDF4;
+	float:right;
+	width:800px;
+	padding:100px;
 	
 }
 
 .aboutmee {
 	font-size: 20px;
-	background-color: #F0F8FF;
-	padding:70px;
-	border:30px groove #FFDDF4;
+	padding:10px;
 	margin: auto;
-	width: 500px;
-	height: 800px;
 	word-spacing: 3px;
 	text-align: left;
 	line-height: 20px;
@@ -57,11 +62,9 @@ span{
 table{
 
 	border: 30px groove #FFDDF4;
-	
 	background-color: pink;
 	position: relative;
-	bottom: 1175px;
-	left: 150px;
+	float:left;
 }
 
 td{
@@ -85,4 +88,22 @@ a:visited{
 }
 a:hover{
 	color:purple;
+}
+
+.content_container{
+	width:80%;
+	margin:auto;
+}
+
+h2{
+	text-decoration: underline;
+	font-weight: bold;
+	font-style:italic;
+	font-family:Brush Script MT;
+	font-size: 50px;
+	color:pink;
+}
+
+li{
+	font-size: 20px
 }
