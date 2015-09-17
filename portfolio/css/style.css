@@ -49,7 +49,7 @@ span{
 	margin: auto;
 	width: 500px;
 	height: 800px;
-	word-spacing: 5px;
+	word-spacing: 3px;
 	text-align: left;
 	line-height: 20px;
 }
@@ -68,4 +68,21 @@ td{
 	background-color: White;
 	text-decoration: none;
 	border: 2px dashed #fff;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+a:link{
+	color:#FFDDF4;
+}
+a:visited{
+	color:#FFDDF4;
+}
+a:hover{
+	color:purple;
 }
