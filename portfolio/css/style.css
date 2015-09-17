@@ -19,10 +19,9 @@ h1{
 }
 
 
-div img {
+#onlythis {
 
-	padding:5px;
-	border:5px groove #FFDDF4;
+	border:30px groove #FFDDF4;
 	float:left;
 }
 
@@ -38,21 +37,8 @@ span{
 	font-size: 15px;
 	background-color: #F0F8FF;
 	padding:50px;
-	border:5px groove #FFDDF4;
-	margin-left: 250px;
-
-p{
-	float:left;
-}
+	border:30px groove #FFDDF4;
+	margin-left: 380px;
 
 
-.divider {
-    border-left: 1px solid #38546d;
-    background: #16222c;
-    width: 1px;
-    height: 80px;
-    position: absolute;
-    right: 250px;
-    top: 10px;
-    float:left;
-}
+
