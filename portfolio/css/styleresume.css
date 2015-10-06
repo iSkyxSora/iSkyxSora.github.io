@@ -1,9 +1,100 @@
 body{
-	background: red;
+	background: white;
+}
+
+#navbar{
+	position: static;
+	width:1115px;
+	padding-top:30px; 
+	padding-left:453px;
+}
+
+#navbar #holder{
+	position: static;
+	height:34px;
+	border-bottom: 1px solid #000;
+	width:1115px;
+	padding-left: 16px;
+	
+	
+}
+
+#navbar #holder ul{
+	
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+#navbar #holder ul li a{
+	
+	text-decoration: none;
+	float:left;
+	margin-right:10px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color:#000;
+	border:1px solid #000;
+	border-bottom:none;
+	padding:5px;
+	width:200px;
+	text-align: center;
+	display:block;
+	background:#FFDDF4;
+}
+
+#navbar #holder ul li a:hover{
+	
+	background:pink;
+	color:white;
+	text-shadow:1px 1px 1px #000;
+}
+
+#holder ul li a#onlink{
+	background:white;
+	color:#000;
+	border-bottom:1px solid #fff;
+}
+#holder ul li a#onlink:hover{
+	background:white;
+	color:#FFDDF4;
+	text-shadow:1px 1px 1px #000;
 }
 .container-resume{
 	background-color: white;
 	width:800px;
 	margin:auto;
-	padding:50px;
+	padding-right:450px;
+	padding-left:50px;
+	padding-top:50px;
+	position: relative;
+	float:right;
+
+}
+.container-profile{
+	background-color: white;
+	position: fixed;
+	width:300px;
+	height:1500px;
+	border-right: 1px solid black;
+	float:left;
+	padding-left: 150px;
+	padding-right:-50px;
+	padding-top:100px;
+}
+
+.profile-picture{
+	
+	
+
+}
+
+.experence-years{
+	color:grey;
+	text-align: right;
+
+
+}
+
+.subheadline-section{
+
 }
