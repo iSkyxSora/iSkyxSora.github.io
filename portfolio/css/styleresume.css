@@ -86,7 +86,7 @@ body{
 	position: fixed;
 	width:300px;
 	height:1500px;
-	border-right: 1px solid black;
+	
 	float:left;
 	padding-left: 50px;
 	padding-right:-50px;
@@ -96,6 +96,7 @@ body{
 }
 		
 .short-aboutme{
+	padding-top:20px;
 	padding-right:50px;
 	text-align: justify;
 	font-size:15px;
