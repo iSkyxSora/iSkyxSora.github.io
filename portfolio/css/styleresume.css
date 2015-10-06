@@ -1,5 +1,5 @@
 body{
-	background: white;
+	background: pink;
 }
 
 #navbar{
@@ -14,7 +14,7 @@ body{
 	height:34px;
 	border-bottom: 1px solid #000;
 	width:1115px;
-	padding-left: 16px;
+	padding-left: 17px;
 	
 	
 }
@@ -59,13 +59,24 @@ body{
 	color:#FFDDF4;
 	text-shadow:1px 1px 1px #000;
 }
+
+.headline-main{
+	padding-right:40px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align: center;
+}
+
+
+
 .container-resume{
 	background-color: white;
 	width:800px;
 	margin:auto;
-	padding-right:450px;
-	padding-left:50px;
-	padding-top:50px;
+	right:318px;
+	padding-top: 50px;
+	padding-right:149px;
+	padding-left:149px;
 	position: relative;
 	float:right;
 
@@ -77,15 +88,17 @@ body{
 	height:1500px;
 	border-right: 1px solid black;
 	float:left;
-	padding-left: 150px;
+	padding-left: 50px;
 	padding-right:-50px;
-	padding-top:100px;
+	left:109px;
+	top:-5px;
+
 }
-
-.profile-picture{
-	
-	
-
+		
+.short-aboutme{
+	text-align:center;
+	padding-right:50px;
+}
 }
 
 .experence-years{
