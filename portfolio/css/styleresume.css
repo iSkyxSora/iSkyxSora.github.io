@@ -1,5 +1,6 @@
 body{
-	background: pink;
+	background-image: url("https://s-media-cache-ak0.pinimg.com/236x/7e/81/a9/7e81a9f7eb0a1c16eb2a28a0a6a9ab91.jpg");
+	background-repeat: repeat;
 }
 
 #navbar{
@@ -108,6 +109,3 @@ body{
 
 }
 
-.subheadline-section{
-
-}
