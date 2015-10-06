@@ -1,6 +1,5 @@
 body{
-	background-image: url("http://www.designbolts.com/wp-content/uploads/2012/12/SubtleNet-White-Simple-Seamless-Patterns-For-Website-Backgrounds.jpg");
-	background: repeat;
+	
 }
 
 #navbar{
@@ -240,7 +239,7 @@ a:hover{
 }
 
 .section-resume{
-	color:red;
+	color:black;
 	font-family: 'Oleo Script', cursive;
 }
 
