@@ -17,7 +17,6 @@ body{
 	width:1115px;
 	padding-left: 17px;
 	
-	
 }
 
 #navbar #holder ul{
@@ -97,14 +96,14 @@ body{
 }
 		
 .short-aboutme{
-	text-align:center;
 	padding-right:50px;
-}
+	text-align: justify;
 }
 
+
 .experence-years{
-	color:grey;
-	text-align: right;
+	color:gray;
+
 
 
 }
