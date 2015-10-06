@@ -7,7 +7,7 @@ body{
 	position: static;
 	width:1115px;
 	padding-top:30px; 
-	padding-left:453px;
+	padding-left:500px;
 }
 
 #navbar #holder{
@@ -64,12 +64,14 @@ body{
 	background-color: white;
 	width:800px;
 	margin:auto;
-	right:318px;
+	right:270px;
 	padding-top: 50px;
 	padding-right:149px;
 	padding-left:149px;
 	position: relative;
 	float:right;
+	
+
 
 }
 .container-profile{
@@ -133,7 +135,7 @@ body{
 .short-aboutme{
 	padding-top:50px;
 	padding-right:50px;
-	text-align: left;
+	text-align: center;
 	font-size:14px;
 	font-family: 'Roboto', sans-serif;
 }
