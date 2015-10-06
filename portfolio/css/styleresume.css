@@ -60,15 +60,6 @@ body{
 	text-shadow:1px 1px 1px #000;
 }
 
-.headline-main{
-	padding-right:40px;
-	padding-top:10px;
-	padding-bottom:10px;
-	text-align: center;
-}
-
-
-
 .container-resume{
 	background-color: white;
 	width:800px;
@@ -93,21 +84,10 @@ body{
 	padding-right:-50px;
 	left:109px;
 	top:-5px;
-
-
 }
 		
-.short-aboutme{
-	padding-top:50px;
-	padding-right:50px;
-	text-align: justify;
-	font-size:15px;
-}
-
-
 .experence-years{
 	color:gray;
-
 }
 
 .facebook-logo{
@@ -138,3 +118,33 @@ body{
 .youtube-logo:hover{
 	opacity: 0.5;
 }
+
+
+.headline-main{
+	padding-right:40px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align: center;
+	font-family: Brush Script MT;
+	font-size: 35px;
+}
+
+
+.short-aboutme{
+	padding-top:50px;
+	padding-right:50px;
+	text-align: left;
+	font-size:14px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
