@@ -94,6 +94,7 @@ body{
 	left:109px;
 	top:-5px;
 
+
 }
 		
 .short-aboutme{
@@ -107,7 +108,33 @@ body{
 .experence-years{
 	color:gray;
 
-
-
 }
 
+.facebook-logo{
+	padding-right: 32px;
+}
+.google-logo{
+	padding-top: 32px;
+}
+.tumblr-logo{
+	padding-top: 32px;
+	padding-left:32px;
+}
+.youtube-logo{
+	padding-top: 32px;
+	padding-left:32px;
+}
+
+.facebook-logo:hover{
+	opacity: 0.5;
+}
+
+.google-logo:hover{
+	opacity:0.5;
+}
+.tumblr-logo:hover{
+	opacity: 0.5;
+}
+.youtube-logo:hover{
+	opacity: 0.5;
+}
