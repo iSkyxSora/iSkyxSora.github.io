@@ -246,7 +246,7 @@ a:hover{
 ul{
 	color: black;
 	font-family: arial;
-	
+
 }
 
 .culi-resume{
@@ -262,3 +262,8 @@ p{
 	font-family: arial;
 	font-size:15px;
 }
+
+.headline-section{
+	letter-spacing: 4px;
+}
+
