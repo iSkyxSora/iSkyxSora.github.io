@@ -62,12 +62,12 @@ body{
 
 .container-resume1{
 	background-color: white;
-	width:800px;
+	width:42.4%;
 	margin:auto;
-	right:270px;
-	padding-top: 50px;
-	padding-right:149px;
-	padding-left:149px;
+	right:14.3%;
+	padding-top: 3%;
+	padding-right:7.9%;
+	padding-left:7.9%;
 	position: relative;
 	float:right;
 	border-left:1px solid black;
@@ -76,13 +76,13 @@ body{
 
 .container-resume2{
 	background-color: white;
-	width:800px;
+	width:42%;
 	margin:auto;
-	right:287px;
-	padding-top:50px;
-	padding-right:149px;
-	padding-left:149px;
-	padding-bottom:50px;
+	right:15.1%;
+	padding-top:3%;
+	padding-right:7.83%;
+	padding-left:7.83%;
+	padding-bottom:3%;
 	position: relative;
 	float:right;
 	border-left: 1px solid black;
@@ -93,48 +93,48 @@ body{
 
 .container-resume3{
 	background-color: white;
-	width:800px;
+	width:42.4%;
 	margin:auto;
-	right:270px;
-	padding-top: 50px;
-	padding-right:149px;
-	padding-left:149px;
+	right:14.3%;
+	padding-top: 3%;
+	padding-right:7.9%;
+	padding-left:7.9%;
 	position: relative;
 	float:right;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
+	border-left:1px solid black;
+	border-right:1px solid black;
 }
 
 .container-resume4{
 	background-color: white;
-	width:800px;
+	width:42%;
 	margin:auto;
-	right:287px;
-	padding-top:50px;
-	padding-right:149px;
-	padding-left:149px;
-	padding-bottom:50px;
+	right:15.1%;
+	padding-top:3%;
+	padding-right:7.83%;
+	padding-left:7.83%;
+	padding-bottom:3%;
 	position: relative;
 	float:right;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
-	border-bottom: 1px solid black;
+	border-bottom:1px solid black;
 }
 
 .container-resume5{
 	background-color: white;
-	width:800px;
+	width:42%;
 	margin:auto;
-	right:287px;
-	padding-top:50px;
-	padding-right:149px;
-	padding-left:149px;
-	padding-bottom:50px;
+	right:15.1%;
+	padding-top:3%;
+	padding-right:7.83%;
+	padding-left:7.83%;
+	padding-bottom:3%;
 	position: relative;
 	float:right;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
-	border-bottom: 1px solid black;
+	border-bottom:1px solid black;
 }
 
 
