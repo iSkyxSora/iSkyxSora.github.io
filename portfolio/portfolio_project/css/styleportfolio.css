@@ -8,6 +8,38 @@
 	padding: 5%;	
 }
 
+.portfolio-navigation {
+	
+	height: 50px;
+
+}
+
+.navigation-item{
+	display: inline-block;
+	padding: 20px;
+}
+
+.navigation-link{
+	text-decoration: none;
+	color:white;
+	padding: 0px 10px;
+	font-size: 20px;
+	transition: color 1s;
+}
+
+.navigation-link:hover{
+	color:grey;
+	
+}
+
+.is-active{
+	border-bottom: 5px solid white;
+}
+
+.navigation-menu{
+	text-align: center;
+}
+
 p {
 
 	text-align: center;
