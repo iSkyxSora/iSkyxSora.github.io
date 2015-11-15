@@ -1,4 +1,11 @@
-
+.hate{
+	color:black;
+}
+.container {
+	width: 768px;
+	margin: auto;
+	background-color: pink;
+	padding: 5%;	
 
 p {
 
