@@ -4,6 +4,29 @@ body{
 	background-image: url("../Pictures/Landscape.jpg");
 	background-repeat: no-repeat;
 
+
+}
+
+h1{
+	text-align: center;
+	color:white;
+}
+
+h2{
+	text-align: center;
+	float: left;
+}
+
+
+.homepage-button-nav{
+
+	padding-top: 1px;
+	padding-bottom: 6px;
+	background-color: black;
+	height:60px;
+	width: 100%;
+	float: left;
+
 }
 
 .container {
@@ -14,20 +37,30 @@ body{
 }
 
 .portfolio-navigation {
-	background-color: black;
 	height: 50px;
 
+}
 
+.gif-animation {
+	float:left;
+ position: static;
+ bottom: 30px;
 }
 
 .navigation-item{
 	display: inline-block;
 	background-image:url("../Pictures/Clouds.png");
 	background-repeat: no-repeat;
-	background-size: 300px 187.5px;
-	height: 500px;
-	width: 400px;
-
+	background-size: 100%;
+	height: 200px;
+	width: 300px;
+	padding-top: 6%;
+	text-align: center;
+	text-decoration: underline;
+	position: relative;
+	float: left;
+	
+	
 
 	
 }
@@ -35,7 +68,6 @@ body{
 .navigation-link{
 	text-decoration: none;
 	color:black;
-	padding-right: 70px;
 	font-size: 30px;
 	transition: color 1s;
 	
@@ -53,12 +85,8 @@ body{
 
 .navigation-menu{
 	text-align: center;
-
-}
-
-p {
-
-	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 .panda {
@@ -94,6 +122,10 @@ p {
 		margin-right: auto;
 		margin-left:auto;
 		text-align: center;
+	}
+
+	.homepage-button-nav{
+		width: 100%;
 	}
 
 }
