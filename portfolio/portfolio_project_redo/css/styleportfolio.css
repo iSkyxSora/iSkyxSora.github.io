@@ -1,0 +1,231 @@
+.home-button-nav {
+	background-color: black;
+	display: block;
+	padding-top: 1px;
+}
+
+.mobile-profile{
+	width: 80%;
+	text-align: center;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+} 
+
+.home-button {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+
+}
+
+.banner{
+	display: block;
+	text-align: center;
+}
+
+.picture{
+	width:100%;
+}
+
+.blog-picture{
+	width:50%;
+}
+
+.navigation-menu{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0;
+}
+.navigation-item {
+	display: inline-block;
+	background-image: url("http://i1278.photobucket.com/albums/y519/kakin629/Clouds_zpsku2qs0az.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 70px;
+	width: 290px;
+	margin-right: auto;
+	margin-left: auto;
+	text-decoration: underline;
+	text-align: center;
+	padding-top: 100px;
+	font-family: 'Muli', sans-serif;
+
+}
+
+.navigation-link {
+	text-decoration: none;
+	color: black;
+	padding: 0px 10px;
+	font-size: 30px;
+	transition: color 1s;
+}
+
+.navigation-link:hover {
+	color:#99ccff;
+	
+}
+
+.introduction {
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+	font-size: 20px;
+
+}
+
+.mobile-introduction {
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+}
+
+.blog-profile {
+
+	width: 45%;
+	text-align: center;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.flying-gif{
+	position: fixed;
+}
+
+.blog-introduction{
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+	font-size: 30px;
+	color: white;
+	background-color: black;
+}
+
+.paragraphs{
+	background-color: white;
+	width:70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+}
+
+.descriptions {
+	font-size: 20px;
+	padding:10px;
+	text-align: justify;
+	line-height: 20px;
+	font-family: 'Bree Serif', serif;
+}
+
+.sub-titles{
+	text-align: center;
+	font-size: 30px;
+	text-decoration: underline;
+	font-family: 'Muli', sans-serif;
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+.pc-build{
+	
+	text-align: center;
+	width: 80%;
+}
+
+.personal-works{
+
+	text-align: center;
+	width: 60%;
+}
+
+.personal-works-1{
+
+	text-align: center;
+	width: 40%;
+}
+
+iframe{
+	width: 80%
+}
+
+.web-design-projects{
+
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	color:black;
+	font-size: 30px;
+	font-family: 'Bree Serif', serif;
+}
+
+
+span{
+	font-size: 30px;
+	font-family: 'Bree Serif', serif;
+	font-style: italic;
+	transition: color 1s;
+}
+
+span:hover{
+	color:#99ccff;
+}
+
+
+@media screen and (max-width: 720px){
+
+	.flying-gif{
+		display: none;
+	}
+
+	.blog-picture{
+		display: none;
+	}
+
+	.blog-profile{
+		display: none;
+	}
+
+	.mobile-introduction{
+		display: none;
+	}
+
+	.mobile-portfolio-navigation{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 640px){
+
+	.picture{
+		display: none;
+	}
+
+	.introduction{
+		display: none;
+	}
+
+	.descriptions{
+		width: 100%;
+		padding:1px;
+	}
+
+
+}
+
+@media screen and (min-width: 640px){
+
+	.mobile-profile{
+		display: none;
+	}
+
+	.mobile-introduction{
+		display: none;
+	}
+
+}
