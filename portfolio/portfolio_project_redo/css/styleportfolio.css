@@ -126,27 +126,30 @@
 	font-size: 30px;
 	text-decoration: underline;
 	font-family: 'Muli', sans-serif;
-	background-color: black;
-	color: white;
+	color: black;
 	width: 100%;
 }
 
 .pc-build{
-	
 	text-align: center;
 	width: 80%;
 }
 
 .personal-works{
-
-	text-align: center;
-	width: 60%;
+	text-align: center;	
 }
 
 .personal-works-1{
+	text-align: center;	
+}
 
+.personal-works-2{
 	text-align: center;
-	width: 40%;
+}
+
+.personal-works-3{
+	text-align: center;
+	width: 60%;
 }
 
 iframe{
@@ -175,6 +178,21 @@ span:hover{
 	color:#99ccff;
 }
 
+
+@media screen and (max-width: 1400px){
+
+	.personal-works-2{
+		width: 100%;
+	}
+
+	.personal-works{
+		width: 100%;
+	}
+
+	.personal-works-1{
+		width: 100%;
+	}
+}
 
 @media screen and (max-width: 720px){
 
