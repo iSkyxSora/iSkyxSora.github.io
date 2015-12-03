@@ -156,19 +156,21 @@
 	text-decoration: none;
 	display: block;
 	color:black;
-	font-size: 20px;
-	transition: color 1s;
+	font-size: 30px;
 	font-family: 'Bree Serif', serif;
 }
 
-.web-design-projects:hover{
-	color:#99ccff;
-}
 
 span{
 	font-size: 30px;
 	font-family: 'Bree Serif', serif;
+	transition: color 1s;
 }
+
+span:hover{
+	color:#99ccff;
+}
+
 
 @media screen and (max-width: 720px){
 
