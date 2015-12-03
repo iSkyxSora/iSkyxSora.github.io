@@ -177,6 +177,26 @@ span:hover{
 	color:#99ccff;
 }
 
+.social-media-icon{
+	list-style-type: none;
+	padding:0;
+}
+
+.social-media-icon li{
+	display: inline-block;
+	padding: 5%;
+}
+.contact-info{
+	font-size: 20px;
+	text-align: center;
+	line-height: 5px;
+	font-family: 'Bree Serif', serif;
+}
+
+.contact{
+	display: block;
+	text-align: center;
+}
 
 @media screen and (max-width: 1400px){
 
