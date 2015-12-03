@@ -30,7 +30,7 @@
 }
 
 .blog-picture{
-	width:30%;
+	width:50%;
 }
 
 .navigation-menu{
@@ -114,7 +114,7 @@
 	display: block;
 }
 
-.aboutmee {
+.descriptions {
 	font-size: 20px;
 	padding:10px;
 	text-align: justify;
@@ -122,17 +122,73 @@
 	font-family: 'Bree Serif', serif;
 }
 
-.title-aboutme{
+.sub-titles{
 	text-align: center;
 	font-size: 30px;
 	text-decoration: underline;
 	font-family: 'Muli', sans-serif;
+	background-color: black;
+	color: white;
+	width: 100%;
+}
 
+.pc-build{
+	
+	text-align: center;
+	width: 80%;
+}
+
+.personal-works{
+
+	text-align: center;
+	width: 60%;
+}
+
+.personal-works-1{
+
+	text-align: center;
+	width: 40%;
+}
+
+.web-design-projects{
+
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	color:black;
+	font-size: 20px;
+	transition: color 1s;
+	font-family: 'Bree Serif', serif;
+}
+
+.web-design-projects:hover{
+	color:#99ccff;
+}
+
+span{
+	font-size: 30px;
+	font-family: 'Bree Serif', serif;
 }
 
 @media screen and (max-width: 720px){
 
 	.flying-gif{
+		display: none;
+	}
+
+	.blog-picture{
+		display: none;
+	}
+
+	.blog-profile{
+		display: none;
+	}
+
+	.mobile-introduction{
+		display: none;
+	}
+
+	.mobile-portfolio-navigation{
 		display: none;
 	}
 
@@ -144,13 +200,15 @@
 		display: none;
 	}
 
-	body{
-		background-color: #ebf8f8;
-	}
-
 	.introduction{
 		display: none;
 	}
+
+	.descriptions{
+		width: 100%;
+		padding:1px;
+	}
+
 
 }
 
