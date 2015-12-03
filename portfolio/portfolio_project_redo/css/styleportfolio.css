@@ -149,7 +149,6 @@
 
 .personal-works-3{
 	text-align: center;
-	width: 60%;
 }
 
 iframe{
@@ -190,6 +189,10 @@ span:hover{
 	}
 
 	.personal-works-1{
+		width: 100%;
+	}
+
+	.personal-works-3{
 		width: 100%;
 	}
 }
