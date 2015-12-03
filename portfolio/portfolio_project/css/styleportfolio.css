@@ -84,6 +84,15 @@
 	background-color: black;
 }
 
+.blog-profile {
+
+	width: 45%;
+	text-align: center;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 .flying-gif{
 	position: fixed;
 }
@@ -91,9 +100,34 @@
 .blog-introduction{
 	text-align: center;
 	font-family: 'Bree Serif', serif;
-	font-size: 20px;
+	font-size: 30px;
 	color: white;
 	background-color: black;
+}
+
+.paragraphs{
+	background-color: white;
+	width:70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+}
+
+.aboutmee {
+	font-size: 20px;
+	padding:10px;
+	text-align: justify;
+	line-height: 20px;
+	font-family: 'Bree Serif', serif;
+}
+
+.title-aboutme{
+	text-align: center;
+	font-size: 30px;
+	text-decoration: underline;
+	font-family: 'Muli', sans-serif;
+
 }
 
 @media screen and (max-width: 720px){
