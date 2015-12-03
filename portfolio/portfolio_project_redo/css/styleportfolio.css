@@ -39,6 +39,7 @@
 	margin-left: auto;
 	padding: 0;
 }
+
 .navigation-item {
 	display: inline-block;
 	background-image: url("http://i1278.photobucket.com/albums/y519/kakin629/Clouds_zpsku2qs0az.png");
@@ -147,9 +148,6 @@
 	text-align: center;
 }
 
-.personal-works-3{
-	text-align: center;
-}
 
 iframe{
 	width: 80%
