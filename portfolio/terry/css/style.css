@@ -1,0 +1,252 @@
+
+/*clearfix class */
+h1{
+	font-size: 35px;
+	padding-bottom: 20px;
+}
+h3{
+	font-size: 25px;
+	padding: 10px;
+	line-height: 25px;
+}
+
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*body styles color back ground to redo*/
+
+body {
+	background: url(http://cfaes.osu.edu/brand/sites/ctbrand/files/site-library/site-documents/art/backgrounds/osu/buckeye_leaf_diamond_graywhite.jpg);
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 1em; 
+}
+
+/*Media query which says when the screen 
+is at least 700px width, that's 700px or bigger, 
+make the background blue. */
+@media screen and (min-width: 700px) {
+	
+	body {
+		background-color: #f2f2f2;
+	}
+}
+
+/*Navigation*/
+.portfolio-navigation{
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	height: 50px;
+
+	background-color: green;
+}
+	.navigation-item{
+		display: inline-block;
+	}
+
+	.navigation-menu{
+		padding: 20px;
+	}
+
+	.navigation-links{
+		padding: 0px 10px;
+		text-decoration: none;
+		color: white;
+	}
+	.navigation-links:hover{
+		color: blue;
+	}
+
+	.is-active{
+		border-bottom: 2px solid white;
+	}
+
+
+/*Defining the container widths */
+
+/*Because we're designing for mobile first,
+we'll start off with a container width of 240px and 
+used media queries to increase the size */
+.index-container {
+	border: 30px solid #FAFAFA;
+	text-align: center;
+	background: url(http://cfaes.osu.edu/brand/sites/ctbrand/files/site-library/site-documents/art/backgrounds/osu/buckeye_leaf_diamond_graywhite.jpg);
+	height: 360px;
+	width: 340px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 45px;
+}
+	.portait {
+		margin-top: 30px;
+        width: 170px
+    }
+
+/*Here's our media querie which tells the browser that when
+the screen is at least 480px (which is 480px or higher) made
+the main container take up 80% of the screen.
+
+Because our browser could get REALLY wide and we don't want
+it to take up 80% in those situations, we've set a limit to
+how wide the container can be using the max-width property*/
+@media screen and (min-width: 480px) {
+	.portfolio-container {
+		width:80%;
+		max-width: 1000px;
+	}
+
+/*here is all the chabada for nav. i guess*/
+.headline-main {
+	font-size: 36px;
+	font-weight: 700;
+	padding: 20px 0px;
+}
+
+.headline-section {
+	padding: 5px 0;
+}
+
+.contact-link {
+	display: none;
+	text-decoration: none;
+	color: #b8b8b8;
+}
+
+@media screen and (min-width: 520px) {
+	.contact-link {
+		display: block;
+	}
+}
+
+.contact-link:hover {
+	color: #333333;
+}
+
+.headline-section {
+	font-size: 22px;
+	border-bottom:2px solid #d2d2d2;
+}
+
+/*Here we're hiding the resume-section initially because
+we don't want it to show up on mobile.*/
+.resume-section {
+	display: none;
+}
+
+/*Now we've .*/
+@media screen and (min-width: 430px) {
+	.resume-section {
+		display: block;
+	}
+}
+
+
+
+/*here is  body curriculum css  really no idea 
+where to put it, org messy _to rectify_ */
+
+	.body-curriculum{
+
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 80px 30px 10px 5%;
+/* */	height: auto;
+	width: 70%;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    }
+
+    hr{
+        margin margin-top: -60;
+        color: black;
+        opacity: 6;
+    }
+
+    .inside-left{
+    	display: inline-block;
+        border-radius: 5px;        
+        padding: 5px;
+        background-color: #6E6E6E;
+        /*problem here so 2floats not aligned
+        text not included either*/
+    }
+
+    .inside-body {
+        float: right;
+        background: url(http://cfaes.osu.edu/brand/sites/ctbrand/files/site-library/site-documents/art/backgrounds/osu/buckeye_leaf_diamond_graywhite.jpg);
+    	width: 70%;
+    	padding-right: 5%;
+    	padding-left: 5%;
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+    	margin-left: 10%;
+    	margin-top: 10px;
+    	margin-bottom: 20px;
+    	border-radius: 10px;
+        
+    }
+
+	.between {
+	height: 100px;
+	}
+
+	.footer {
+	text-align: center;
+    height: 20px;
+	width: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #A9E2F3;
+    clear: both;
+    }
+
+    .ending{
+    color: #A4A4A4;
+    margin-top: 30px;
+    font-size: 10px;
+	}
+
+
+
+
+/*here is project/expo CSS*/
+	.container-resume{
+		background-color: #FAFAFA;
+		text-align: center;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 20px;
+		padding: 80px;	
+	}
+
+	.container-img{
+		width: 100%;
+		max-width: 300px;
+	}
+
+	@media screen and (min-width: 1000px) {
+	.container-img {
+		width: 28%;
+	}
+
+	.container-img:hover {
+		height: auto;
+		width: 700px;
+	}
+
+
+
+
+
+
+
+
+
+
+
