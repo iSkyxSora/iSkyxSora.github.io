@@ -1,110 +1,175 @@
 body {
-	
-	background-image: url("http://www.interiorplace.com/product_images/z/214/LW26410L__46857.jpg");
-	background-repeat: repeat;
-	
-	}
-
-.heading{
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	padding-top: 100px;
+  font-family: "Century Gothic", 'Lato', sans-serif;
 }
 
-h1{
-	font-family: Brush Script MT;
-	font-style: italic;
-	font-weight: bold;
-	text-decoration: underline;
-	font-size:60px;
-	margin-left: 190px;
-	color:pink;
+a {
+  text-decoration: none;
 }
 
-
-#onlythis {
-
-	border:30px groove #FFDDF4;
-	float:left;
-	position: relative;
-	left: 170px;
-
+.et-hero-tabs,
+.et-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  position: relative;
+  background: #eee;
+  text-align: center;
+  padding: 0 2em;
+}
+.et-hero-tabs h1,
+.et-slide h1 {
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 1rem;
+}
+.et-hero-tabs h3,
+.et-slide h3 {
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+  opacity: 0.6;
 }
 
-span{
-	text-decoration: underline;
-	font-weight: bold;
-	font-style:italic;
-	font-family:Brush Script MT;
-	font-size: 50px;
-	color:pink;
-	
+.et-hero-tabs-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  z-index: 10;
+}
+.et-hero-tabs-container--top {
+  position: fixed;
+  top: 0;
 }
 
-.paragraphs{
-	background-color: #F0F8FF;
-	border:30px groove #FFDDF4;
-	float:right;
-	width:800px;
-	padding:100px;
-	
+.et-hero-tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: #000;
+  letter-spacing: 0.1rem;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-size: 0.8rem;
+}
+.et-hero-tab:hover {
+  color: white;
+  background: rgba(102, 177, 241, 0.8);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
-.aboutmee {
-	font-size: 20px;
-	padding:10px;
-	margin: auto;
-	word-spacing: 3px;
-	text-align: left;
-	line-height: 20px;
+.et-hero-tab-slider {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  background: #66B1F1;
+  -webkit-transition: left 0.3s ease;
+  transition: left 0.3s ease;
 }
 
-table{
+@media (min-width: 800px) {
+  .et-hero-tabs h1,
+  .et-slide h1 {
+    font-size: 3rem;
+  }
+  .et-hero-tabs h3,
+  .et-slide h3 {
+    font-size: 1rem;
+  }
 
-	border: 30px groove #FFDDF4;
-	background-color: pink;
-	position: relative;
-	float:left;
-}
-
-td{
-	background-color: White;
-	text-decoration: none;
-	border: 2px dashed #fff;
-	text-align: center;
-}
-a{
-	text-decoration: none;
-	font-family: cursive;
-	font-weight: bold;
-	font-size: 25px;
+  .et-hero-tab {
+    font-size: 1rem;
+  }
 }
 
-a:link{
-	color:#FFDDF4;
-}
-a:visited{
-	color:#FFDDF4;
-}
-a:hover{
-	color:purple;
-}
-
-.content_container{
-	width:80%;
-	margin:auto;
+@import "https://fonts.googleapis.com/css?family=Montserrat:400";
+:root, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  font-weight: 400;
 }
 
-h2{
-	text-decoration: underline;
-	font-weight: bold;
-	font-style:italic;
-	font-family:Brush Script MT;
-	font-size: 50px;
-	color:pink;
+body {
+  position: relative;
 }
 
-li{
-	font-size: 20px
+@media screen and (min-width: 720px) {
+  :root {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 960px) {
+  :root {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  :root {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  :root {
+    font-size: 18px;
+  }
+}
+.bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/735173/poster.jpg");
+  background-size: cover;
+}
+
+.page-header {
+  font-size: 1.125rem;
+  position: absolute;
+  text-align: left;
+  bottom: 5em;
+  left: 5em;
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.9);
+  mix-blend-mode: multiply;
 }
