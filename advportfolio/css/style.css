@@ -6,6 +6,10 @@ a {
   text-decoration: none;
 }
 
+.et-main h1 a:hover {
+  text-decoration: none;
+}
+
 .et-hero-tabs,
 .et-slide {
   display: -webkit-box;
@@ -173,6 +177,7 @@ a {
 
 
 }
+
 .et-hero-tabs h1,
 .et-slide5 h1 {
   font-size: 2rem;
@@ -258,6 +263,14 @@ a {
   }
 }
 
+.modal-header {
+  padding: 15px;
+  border-bottom: 0px solid #e5e5e5;
+}
+.modal-content {
+  background-color: rgba(255,255,255,1);
+  box-shadow: none;
+}
 
 body {
   position: relative;
